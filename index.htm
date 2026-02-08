@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html>
 <body>
-<pre id="out"></pre>
-
 <script>
-const data = {
+document.write(JSON.stringify({
   status: "ok",
-  name: "Tweaki"
-};
-
-document.getElementById("out").textContent =
-  JSON.stringify(data, null, 2);
+  message: "Hello from HTML"
+}));
 </script>
 </body>
 </html>
